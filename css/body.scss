@@ -2,28 +2,37 @@
 		margin: 0;
 		padding: 0;
 	}
-$color-blac: #000;
+$bgc-green: #9CCDA5;
 $alpha:0.8;
 
 
 
 	body{
-
-		background-color: rgb(29,30,26);
+		font-family: 'Times New Roman',Microsoft YaHei;
+		background: $bgc-green;
 		color: #fff;
 		
 	}
-	#head{
+#up-btn{
+	position: fixed;
+	left:20px;
+	top:500px;
+}
+	//
+	#banner{
 			background-color: #D1D1D1;
 			width: auto;
 			height: 56px;
+			padding-left:70px;
+			padding-right:70px;
+			box-shadow: 0px 2px 16px 0px rgba(0,0,0,0.34);
+			z-index: 100;
 			div{
 				display: inline-block;
+				margin: 10px;
 				height: 36px;
 				line-height: 36px;
-				width: 76px;
-				background: #5B5B5B;
-				box-shadow: 0px 0px 6px 0px rgba(255,255,255,0.50), inset 0px 0px 10px 0px rgba(0,0,0,0.50);
+				width: 76px;		
 				border-radius: 20px;
 				text-align: center;
 				a{
@@ -32,5 +41,62 @@ $alpha:0.8;
 					font-size: 20px;
 
 				}
+				
 			}
+			div:hover,.a1{
+					background: #5B5B5B;
+					box-shadow: 0px 0px 6px 0px rgba(255,255,255,0.50), inset 0px 0px 10px 0px rgba(0,0,0,0.50);
+					background-color:#5B5B5B;
+					a{
+						color: #fff;
+					}
+				}
+				img{
+				float: right;
+					margin: 10px;
+				}
 	}
+
+//
+#head{
+		height:527px;
+		width: 1024px;
+		margin: 0 auto;
+		z-index:1;
+		.logo{
+			float: left;
+			margin-top: 40px;
+			margin-left:0px;
+			overflow: hidden;
+		}
+		.name{
+			float: left;
+			margin-top: 40px;
+			margin-left:50px;
+		}
+		.name-2{
+			float: left;
+			margin-top: 87px;
+			margin-left:10px;
+		}
+		.show{
+			clear: both;
+			height: 340px;
+			width: auto;
+			top: 280px;
+			background: #F2F2F2;
+			box-shadow: 0px 4px 13px 0px rgba(0,0,0,0.35);
+		}
+}
+
+
+
+
+
+
+
+
+
+
+
+

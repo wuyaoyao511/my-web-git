@@ -3,25 +3,69 @@
   padding: 0; }
 
 body {
-  background-color: #1d1e1a;
+  font-family: 'Times New Roman',Microsoft YaHei;
+  background: #9CCDA5;
   color: #fff; }
 
-#head {
+#up-btn {
+  position: fixed;
+  left: 20px;
+  top: 500px; }
+
+#banner {
   background-color: #D1D1D1;
   width: auto;
-  height: 56px; }
-  #head div {
+  height: 56px;
+  padding-left: 70px;
+  padding-right: 70px;
+  box-shadow: 0px 2px 16px 0px rgba(0, 0, 0, 0.34);
+  z-index: 100; }
+  #banner div {
     display: inline-block;
+    margin: 10px;
     height: 36px;
     line-height: 36px;
     width: 76px;
-    background: #5B5B5B;
-    box-shadow: 0px 0px 6px 0px rgba(255, 255, 255, 0.5), inset 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
     border-radius: 20px;
     text-align: center; }
-    #head div a {
+    #banner div a {
       text-decoration: none;
       color: #494949;
       font-size: 20px; }
+  #banner div:hover, #banner .a1 {
+    background: #5B5B5B;
+    box-shadow: 0px 0px 6px 0px rgba(255, 255, 255, 0.5), inset 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    background-color: #5B5B5B; }
+    #banner div:hover a, #banner .a1 a {
+      color: #fff; }
+  #banner img {
+    float: right;
+    margin: 10px; }
+
+#head {
+  height: 527px;
+  width: 1024px;
+  margin: 0 auto;
+  z-index: 1; }
+  #head .logo {
+    float: left;
+    margin-top: 40px;
+    margin-left: 0px;
+    overflow: hidden; }
+  #head .name {
+    float: left;
+    margin-top: 40px;
+    margin-left: 50px; }
+  #head .name-2 {
+    float: left;
+    margin-top: 87px;
+    margin-left: 10px; }
+  #head .show {
+    clear: both;
+    height: 340px;
+    width: auto;
+    top: 280px;
+    background: #F2F2F2;
+    box-shadow: 0px 4px 13px 0px rgba(0, 0, 0, 0.35); }
 
 /*# sourceMappingURL=body.css.map */
