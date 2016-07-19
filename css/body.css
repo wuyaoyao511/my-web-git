@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0; }
 
+img, object {
+  max-width: 100%; }
+
 body {
   font-family: 'Times New Roman',Microsoft YaHei;
   background: #DCF8E1;
@@ -15,13 +18,14 @@ body {
   background-color: #F2F2F2;
   width: auto;
   height: 56px;
-  padding-left: 70px;
-  padding-right: 70px;
+  line-height: 56px;
+  padding-left: 10%;
+  padding-right: 10%;
   box-shadow: 0px 2px 16px 0px rgba(0, 0, 0, 0.34);
   z-index: 100; }
   #banner div {
     display: inline-block;
-    margin: 10px;
+    margin-right: 1%;
     height: 36px;
     line-height: 36px;
     width: 76px;
@@ -30,7 +34,7 @@ body {
     #banner div a {
       text-decoration: none;
       color: #242424;
-      font-size: 20px; }
+      font-size: 1.2rem; }
   #banner div:hover, #banner .a1 {
     background: #5B5B5B;
     box-shadow: 0px 0px 6px 0px rgba(255, 255, 255, 0.5), inset 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
@@ -44,14 +48,14 @@ body {
     line-height: 56px;
     overflow: hidden;
     height: 56px;
-    font-size: 18px;
+    font-size: 100%;
     padding-top: 8px;
     padding-bottom: 10px; }
     #banner .clos-lit img {
       margin-right: 5px; }
 
 #head {
-  height: 527px;
+  height: 700px;
   margin: 0 auto;
   z-index: 1; }
   #head .logo {
@@ -69,12 +73,13 @@ body {
     margin-left: 10px; }
   #head .crap {
     clear: both;
-    position: relative; }
+    position: relative;
+    top: 10px; }
     #head .crap .show {
       overflow: hidden;
       height: 400px;
       width: 80%;
-      margin: 0 auto;
+      margin: 0px auto;
       background: #F2F2F2;
       box-shadow: 0px 4px 13px 0px rgba(0, 0, 0, 0.35); }
       #head .crap .show img {
@@ -85,5 +90,20 @@ body {
   #head .right-btn {
     float: right;
     padding: 130px 2.5%; }
+
+#sec-1 {
+  height: 400px;
+  width: auto;
+  background-color: #fff; }
+
+#sec-2 {
+  height: 400px;
+  width: auto;
+  background-color: #232323; }
+
+#sec-3 {
+  height: 400px;
+  width: auto;
+  background-color: #F3F3F3; }
 
 /*# sourceMappingURL=body.css.map */

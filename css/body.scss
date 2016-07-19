@@ -2,18 +2,20 @@
 		margin: 0;
 		padding: 0;
 	}
+	
 $bgc-green: #DCF8E1;
 $bgc-blac: #242424;
 $bgc-gray:#F2F2F2;
+$fon-s:1.2rem;
 $alpha:0.8;
 
-
-
-	body{
+img, object {
+	max-width: 100%;
+} 
+body{
 		font-family: 'Times New Roman',Microsoft YaHei;
 		background: $bgc-green;
-		color: #fff;
-		
+		color: #fff;	
 	}
 #up-btn{
 	position: fixed;
@@ -24,13 +26,14 @@ $alpha:0.8;
 			background-color: $bgc-gray;
 			width: auto;
 			height: 56px;
-			padding-left:70px;
-			padding-right:70px;
+			line-height: 56px;
+			padding-left:10%;
+			padding-right:10%;
 			box-shadow: 0px 2px 16px 0px rgba(0,0,0,0.34);
 			z-index: 100;
 			div{
 				display: inline-block;
-				margin: 10px;
+				margin-right: 1%;
 				height: 36px;
 				line-height: 36px;
 				width: 76px;		
@@ -39,7 +42,7 @@ $alpha:0.8;
 				a{
 					text-decoration: none;
 					color:$bgc-blac;
-					font-size: 20px;
+					font-size: $fon-s;
 
 				}
 				
@@ -59,7 +62,7 @@ $alpha:0.8;
 				line-height: 56px;
 				overflow: hidden;
 				height: 56px;
-				font-size: 18px;
+				font-size:100%;
 				padding-top:8px;
 				padding-bottom:10px;
 				img{
@@ -72,7 +75,7 @@ $alpha:0.8;
 //head 
 // 
 #head{
-		height:527px;
+		height:700px;
 		
 		margin: 0 auto;
 		z-index:1;
@@ -96,15 +99,15 @@ $alpha:0.8;
 		.crap{
 				clear: both;
 				position: relative;
+				top: 10px;
 				.show{
 				overflow: hidden;
 				height: 400px;
 				width: 80%;
-				margin: 0 auto;
+				margin: 0px auto;
 				background: $bgc-gray;
 				box-shadow: 0px 4px 13px 0px rgba(0,0,0,0.35);
 				img{
-					
 					margin: 0 auto;
 				}
 				}
@@ -119,9 +122,23 @@ $alpha:0.8;
 		}
 }
 
+#sec-1{
+	height:400px;
+	width:auto;
+	background-color: #fff;
+}
 
+#sec-2{
+	height:400px;
+	width:auto;
+	background-color: #232323;
+}
 
-
+#sec-3{
+	height:400px;
+	width:auto;
+	background-color: #F3F3F3;
+}
 
 
 
