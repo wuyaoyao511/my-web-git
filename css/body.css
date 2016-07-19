@@ -6,48 +6,22 @@ body {
   background-color: #1d1e1a;
   color: #fff; }
 
-#top-link {
-  width: 100%;
-  height: 300px;
-  margin: 0 auto 0;
-  padding: 0;
-  font-size: 50px;
-  background: #9ed7f1;
-  box-shadow: rgba(0, 0, 0, 0.8) 0px 3px 5px; }
-
-#cloud-1 {
-  margin: 50px 0 0 50px;
-  position: absolute; }
-
-#cloud-2 {
-  position: absolute;
-  margin: 70px 0 0 -20px; }
-
-#cloud-3 {
-  position: absolute;
-  margin: 80px 0 0 110px; }
-
-#top-link a {
-  float: right;
-  margin-right: 10%;
-  margin-top: 150px;
-  margin-bottom: 0px;
-  text-decoration: none;
-  height: auto;
-  padding: 30px;
-  font-size: 50px;
+#head {
+  background-color: #D1D1D1;
   width: auto;
-  background-color: #20527d;
-  color: #fff;
-  border-radius: 50%;
-  box-shadow: rgba(0, 0, 0, 0.8) 0px -3px 5px; }
-
-#section-1 .mid {
-  clear: both;
-  height: 500px;
-  width: 500px;
-  margin: 0 auto; }
-  #section-1 .mid img {
-    margin: 0 auto; }
+  height: 56px; }
+  #head div {
+    display: inline-block;
+    height: 36px;
+    line-height: 36px;
+    width: 76px;
+    background: #5B5B5B;
+    box-shadow: 0px 0px 6px 0px rgba(255, 255, 255, 0.5), inset 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    text-align: center; }
+    #head div a {
+      text-decoration: none;
+      color: #494949;
+      font-size: 20px; }
 
 /*# sourceMappingURL=body.css.map */
