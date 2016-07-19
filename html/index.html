@@ -4,15 +4,29 @@
 	<meta charset="UTF-8">
 	<title>瑶兔子的草</title>
 <link rel="stylesheet" type="text/css" href="../css/body.css">
+<script>
+	function $(id){
+  return getElementById('id');
+	}
+	window.onload = function(){
+		if (scrollTop>screenHeight) {
+			$(up-btn).style.display="block";
+		}
+	}
+</script>
 </head>
 <body>
-	<div id="up-btn"><img src="../pic/up-btn.png"" alt=""></div>
+<!-- 上升按钮
+ -->	<div id="up-btn"><img src="../pic/up-btn.png"" alt=""></div>
+
+
+
 	<nav id="banner">
 		<div class="a1"><a href="#">首页</a></div>
 		<div class="a2"><a href="#">图标</a></div>
 		<div class="a3"><a href="#">手绘</a></div>
 		<div class="a4"><a href="#">动画</a></div>
-		<img id="light" src="../pic/light-on.png" alt="">
+		<a class = "clos-lit" href="#"><img id="light" src="../pic/light-off.png" alt=""><span>关灯</span></a>
 	</nav><!-- banner结束 -->
 
 
@@ -20,9 +34,15 @@
 		<div class="logo"><img src="../pic/lit-logo.png" alt=""></div>
 		<div class="name"><img src="../pic/name.png" alt=""></div>
 		<div  class="name-2"><img src="../pic/name-2.png" alt=""></div>
+		<div class="crap">
+		<img class = "left-btn" src="../pic/left-btn.png" alt="">
+		
+		<img class = "right-btn" src="../pic/right-btn.png" alt="">
 		<div class="show">
-			<img src="" alt="">
+			<img src="../pic/alien-boat.gif" alt="" height="400px">
 		</div>
+		</div>
+
 	</div><!-- head结束 -->
 </body>
 </html>

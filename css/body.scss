@@ -2,7 +2,9 @@
 		margin: 0;
 		padding: 0;
 	}
-$bgc-green: #9CCDA5;
+$bgc-green: #DCF8E1;
+$bgc-blac: #242424;
+$bgc-gray:#F2F2F2;
 $alpha:0.8;
 
 
@@ -15,12 +17,11 @@ $alpha:0.8;
 	}
 #up-btn{
 	position: fixed;
-	left:20px;
-	top:500px;
+	display:none;
 }
 	//
 	#banner{
-			background-color: #D1D1D1;
+			background-color: $bgc-gray;
 			width: auto;
 			height: 56px;
 			padding-left:70px;
@@ -37,7 +38,7 @@ $alpha:0.8;
 				text-align: center;
 				a{
 					text-decoration: none;
-					color:#494949;
+					color:$bgc-blac;
 					font-size: 20px;
 
 				}
@@ -50,42 +51,71 @@ $alpha:0.8;
 					a{
 						color: #fff;
 					}
-				}
-				img{
+			}
+			.clos-lit{
 				float: right;
-					margin: 10px;
+				color:$bgc-blac;
+				text-decoration: none;
+				line-height: 56px;
+				overflow: hidden;
+				height: 56px;
+				font-size: 18px;
+				padding-top:8px;
+				padding-bottom:10px;
+				img{
+				margin-right:5px;
 				}
+				}
+			
 	}
 
-//
+//head 
+// 
 #head{
 		height:527px;
-		width: 1024px;
+		
 		margin: 0 auto;
 		z-index:1;
+
 		.logo{
 			float: left;
 			margin-top: 40px;
-			margin-left:0px;
+			margin-left:10%;
 			overflow: hidden;
 		}
 		.name{
 			float: left;
 			margin-top: 40px;
-			margin-left:50px;
+			margin-left:3%;
 		}
 		.name-2{
 			float: left;
 			margin-top: 87px;
 			margin-left:10px;
 		}
-		.show{
-			clear: both;
-			height: 340px;
-			width: auto;
-			top: 280px;
-			background: #F2F2F2;
-			box-shadow: 0px 4px 13px 0px rgba(0,0,0,0.35);
+		.crap{
+				clear: both;
+				position: relative;
+				.show{
+				overflow: hidden;
+				height: 400px;
+				width: 80%;
+				margin: 0 auto;
+				background: $bgc-gray;
+				box-shadow: 0px 4px 13px 0px rgba(0,0,0,0.35);
+				img{
+					
+					margin: 0 auto;
+				}
+				}
+		}
+		.left-btn{
+			float: left;
+			padding:(400px-140px)/2 2.5%;
+		}
+		.right-btn{
+			float: right;
+			padding:(400px-140px)/2 2.5%;
 		}
 }
 
