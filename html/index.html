@@ -3,28 +3,65 @@
 <head>
 	<meta charset="UTF-8" >
 	<meta content="吴瑶，瑶兔子，个人网站，个人博客，绘画，制图，美工，浙工大，web前端开发，html5，css，ps,sketch" name="Keywords">
-	<meta name="viewport" content="width=device-width, initial-scale=1" />  
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"> 
 	
 <link rel="stylesheet" type="text/css" href="../css/body.css">
 
-<link rel="stylesheet" type="text/css" media="screen and (max-device-width: 600px)"  
-  href="../css/min.css" /> 
-<link rel="stylesheet" type="text/css" media="screen and (min-width: 600px) and (max-device-width: 980px)"  
- href="../css/mid.css" />
+<!-- <link rel="stylesheet" type="text/css" media="screen and (min-device-width: 601px)"  
+  href="../css/body.css" /> 
+ -->
 <link        rel="shortcut icon" href="favicon.ico" /> 
+<style>
+/*适应小屏幕*/
+	@media screen and (max-width: 600px){
+	
+		#banner{
+			padding-left:5px;
+			padding-right:5px;
+			}	
+						
+		#banner div{
+					width: 40px;
+					margin-right: 0;}
 
+		#banner div a{
+					font-size: 1rem;}
+		#light{
+			width:20px;
+			height: auto;
+		}
+
+    .logo{
+    	width:20%;
+			height: auto;	
+    }
+		.name,.name-2{
+			width:30%;
+			height: auto;	
+		}
+
+		#head .logo{
+			margin-top: 10px;
+			margin-left:2%;
+		}
+		#head .name{
+			margin-top: 30px;
+			margin-left:2%;
+		}
+		#head .name-2{
+			margin-top: 30px;
+			margin-left:2%;
+		}
+		#sec-1 .left-btn,#sec-1 .right-btn{
+			display: none;
+		}
+
+}
+</style>
 
 <title>瑶兔子Zone</title>
 
-<script>
-	function $(id){
-  return getElementById('id');
-	}
-	window.onload = function(){
-		alert("document.body.clientWidth");
-		}
-	}
-</script>
+
 </head>
 <body>
 <!-- 上升按钮
@@ -42,23 +79,18 @@
 
 
 	<div id="head"><!-- head开始 -->
-		<div class="logo"><img src="../pic/lit-logo.png" alt=""></div>
-		<div class="name"><img src="../pic/name.png" alt=""></div>
-		<div  class="name-2"><img src="../pic/name-2.png" alt=""></div>
-		<div class="crap">
-			<img class = "left-btn" src="../pic/left-btn.png" alt="">
-			
-			<img class = "right-btn" src="../pic/right-btn.png" alt="">
-			<div class="show">
-				<img src="../pic/alien-boat.gif" alt="" height="400px">
-			</div>
+		<img class="logo" src="../pic/lit-logo.png" alt="">
+		<img class="name" src="../pic/name.png" alt="">
+		<img class="name-2" src="../pic/name-2.png" alt="">
 		</div>
-
 	</div><!-- head结束 -->
 
 <!-- 	第一部分开始-->	
  	<section id="sec-1">
-		
+			<img class = "left-btn" src="../pic/left-btn.png" alt="">
+			<img class = "right-btn" src="../pic/right-btn.png" alt="">
+			<div class="show">
+				<img src="../pic/alien-boat.gif" alt="" >
 	</section>
 <!-- 第一部分结束-->
 

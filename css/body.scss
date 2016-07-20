@@ -6,11 +6,13 @@
 $bgc-green: #DCF8E1;
 $bgc-blac: #242424;
 $bgc-gray:#F2F2F2;
-$fon-s:1.2rem;
+$fon-l:1.2rem;
+$fon-s:1.0rem;
 $alpha:0.8;
 
 img, object {
-	max-width: 100%;
+	 width: auto;
+	 max-width: 100%;
 } 
 body{
 		font-family: 'Times New Roman',Microsoft YaHei;
@@ -22,6 +24,11 @@ body{
 	display:none;
 }
 	//
+	//
+	//PC
+
+	//* Smartphones (portrait and landscape) ----------- */
+
 	#banner{
 			background-color: $bgc-gray;
 			width: auto;
@@ -34,15 +41,15 @@ body{
 			div{
 				display: inline-block;
 				margin-right: 1%;
+				width: 76px;
 				height: 36px;
 				line-height: 36px;
-				width: 76px;		
 				border-radius: 20px;
 				text-align: center;
 				a{
 					text-decoration: none;
 					color:$bgc-blac;
-					font-size: $fon-s;
+					font-size: $fon-l;
 
 				}
 				
@@ -73,14 +80,16 @@ body{
 	}
 
 //head 
+//
 // 
 #head{
-		height:700px;
-		
+		height:100px;
+
 		margin: 0 auto;
 		z-index:1;
 
 		.logo{
+			
 			float: left;
 			margin-top: 40px;
 			margin-left:10%;
@@ -96,13 +105,16 @@ body{
 			margin-top: 87px;
 			margin-left:10px;
 		}
-		.crap{
+		
+}
+
+#sec-1{
 				clear: both;
 				position: relative;
 				top: 10px;
 				.show{
 				overflow: hidden;
-				height: 400px;
+				height: auto;
 				width: 80%;
 				margin: 0px auto;
 				background: $bgc-gray;
@@ -113,20 +125,15 @@ body{
 				}
 		}
 		.left-btn{
-			float: left;
-			padding:(400px-140px)/2 2.5%;
+			position: absolute;
+			left: 10px;
+			margin-top: (400px-158px)/2;
 		}
 		.right-btn{
-			float: right;
-			padding:(400px-140px)/2 2.5%;
+			position: absolute;
+			right: 10px;
+			margin-top: (400px-158px)/2;
 		}
-}
-
-#sec-1{
-	height:400px;
-	width:auto;
-	background-color: #fff;
-}
 
 #sec-2{
 	height:400px;
@@ -139,11 +146,6 @@ body{
 	width:auto;
 	background-color: #F3F3F3;
 }
-
-
-
-
-
 
 
 

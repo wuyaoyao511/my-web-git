@@ -3,6 +3,7 @@
   padding: 0; }
 
 img, object {
+  width: auto;
   max-width: 100%; }
 
 body {
@@ -26,9 +27,9 @@ body {
   #banner div {
     display: inline-block;
     margin-right: 1%;
+    width: 76px;
     height: 36px;
     line-height: 36px;
-    width: 76px;
     border-radius: 20px;
     text-align: center; }
     #banner div a {
@@ -55,7 +56,7 @@ body {
       margin-right: 5px; }
 
 #head {
-  height: 700px;
+  height: 100px;
   margin: 0 auto;
   z-index: 1; }
   #head .logo {
@@ -71,30 +72,30 @@ body {
     float: left;
     margin-top: 87px;
     margin-left: 10px; }
-  #head .crap {
-    clear: both;
-    position: relative;
-    top: 10px; }
-    #head .crap .show {
-      overflow: hidden;
-      height: 400px;
-      width: 80%;
-      margin: 0px auto;
-      background: #F2F2F2;
-      box-shadow: 0px 4px 13px 0px rgba(0, 0, 0, 0.35); }
-      #head .crap .show img {
-        margin: 0 auto; }
-  #head .left-btn {
-    float: left;
-    padding: 130px 2.5%; }
-  #head .right-btn {
-    float: right;
-    padding: 130px 2.5%; }
 
 #sec-1 {
-  height: 400px;
-  width: auto;
-  background-color: #fff; }
+  clear: both;
+  position: relative;
+  top: 10px; }
+  #sec-1 .show {
+    overflow: hidden;
+    height: auto;
+    width: 80%;
+    margin: 0px auto;
+    background: #F2F2F2;
+    box-shadow: 0px 4px 13px 0px rgba(0, 0, 0, 0.35); }
+    #sec-1 .show img {
+      margin: 0 auto; }
+
+.left-btn {
+  position: absolute;
+  left: 10px;
+  margin-top: 121px; }
+
+.right-btn {
+  position: absolute;
+  right: 10px;
+  margin-top: 121px; }
 
 #sec-2 {
   height: 400px;
