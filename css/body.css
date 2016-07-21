@@ -87,16 +87,6 @@ body {
     #sec-1 .show img {
       margin: 0 auto; }
 
-.left-btn {
-  position: absolute;
-  left: 10px;
-  margin-top: 121px; }
-
-.right-btn {
-  position: absolute;
-  right: 10px;
-  margin-top: 121px; }
-
 #sec-2 {
   height: 400px;
   width: auto;
